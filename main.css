@@ -1,17 +1,152 @@
-p {
-    font-size: 12pt;
+body {
+    margin: 0;
+    background-color: black;
+}
+
+img {
+    width:70%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header.navigation {
+    background: #5b0000;
+    margin: 0px;
+}
+
+header.navigation::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 40px;
+    position: relative;
+}
+
+nav a {
     color: #ffffff;
-    font-family:"Arial";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e7a404;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #e7a404;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+#hero {
+    background-image: url('torontobg1.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 90vh;
+    z-index: -10;
+}
+
+#hero-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.content {
+    position: relative;
+    height: auto;
+    top: -90px;
+}
+
+.links {
+    position: absolute;
+    height: auto;
+    top: 600px;
+    width: 100%;
+}
+
+.background-maroon {
+    background-color: #5b0000;
+}
+
+p, span {
+    font-size: 13pt;
+    color: #ffffff;
+    font-family:"Times, serif";
+    font-weight: normal;
 }
 
 h1 {
-    font-size: 15pt;
-    color: #000000;
-    font-family: arial;
+    font-size: 20pt;
+    color: #e7a404;
+    font-family: century gothic, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    margin-bottom: -15px;
 }
 
 h2 {
-    font-size: 12pt;
-    color: #ffffff;
-    font-family: arial;
+    font-size: 14pt;
+    color: #d2cebd;
+    font-family: century gothic, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    font-size: 13pt;
+    color: #c3f0af;
+    font-family: "times, serif";
+}
+
+a:hover {
+    color: #c3f0af;
+    background-color: #000000;
+    text-decoration: none;
 }
