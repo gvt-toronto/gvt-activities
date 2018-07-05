@@ -107,7 +107,7 @@ nav a:hover::before {
 .links {
     position: absolute;
     height: auto;
-    top: 600px;
+    top: 500px;
     width: 100%;
 }
 
@@ -117,16 +117,16 @@ nav a:hover::before {
 
 p, span {
     font-size: 13pt;
-    color: #ffffff;
-    font-family:"Times, serif";
+    color: #d7c4a5;
+    font-family:"Lora";
     font-weight: normal;
 }
 
 h1 {
     font-size: 20pt;
     color: #e7a404;
-    font-family: century gothic, sans-serif;
-    font-weight: bold;
+    font-family: Ubuntu, Geneva, sans-serif;
+    font-weight: None;
     text-decoration: underline;
     text-decoration-style: dotted;
     margin-bottom: -15px;
@@ -134,15 +134,14 @@ h1 {
 
 h2 {
     font-size: 14pt;
-    color: #d2cebd;
-    font-family: century gothic, sans-serif;
-    font-weight: bold;
+    color: #ffffff;
+    font-family: Ubuntu, Geneva, sans-serif;
+    font-weight: None;
 }
 
 a {
     font-size: 13pt;
     color: #c3f0af;
-    font-family: "times, serif";
 }
 
 a:hover {
