@@ -117,7 +117,7 @@ nav a:hover::before {
 
 p, span {
     font-size: 13pt;
-    color: #d7c4a5;
+    color: #ffffff;
     font-family:"Lora";
     font-weight: normal;
 }
@@ -134,9 +134,19 @@ h1 {
 
 h2 {
     font-size: 14pt;
-    color: #ffffff;
+    color: #d7c4a5;
     font-family: Ubuntu, Geneva, sans-serif;
     font-weight: None;
+}
+
+h3 {
+    font-size: 17pt;
+    color: #e7a404;
+    font-family: Ubuntu, Geneva, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-bottom: -10px;
 }
 
 a {
