@@ -107,7 +107,7 @@ nav a:hover::before {
 .links {
     position: absolute;
     height: auto;
-    top: 500px;
+    top: 550px;
     width: 100%;
 }
 
@@ -126,7 +126,6 @@ h1 {
     font-size: 20pt;
     color: #e7a404;
     font-family: Ubuntu, Geneva, sans-serif;
-    font-weight: None;
     text-decoration: underline;
     text-decoration-style: dotted;
     margin-bottom: -15px;
@@ -136,7 +135,6 @@ h2 {
     font-size: 14pt;
     color: #d7c4a5;
     font-family: Ubuntu, Geneva, sans-serif;
-    font-weight: None;
 }
 
 h3 {
@@ -145,7 +143,6 @@ h3 {
     font-family: Ubuntu, Geneva, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    text-decoration-style: none;
     margin-bottom: -10px;
 }
 
