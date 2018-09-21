@@ -107,7 +107,7 @@ nav a:hover::before {
 .links {
     position: absolute;
     height: auto;
-    top: 550px;
+    top: 400px;
     width: 100%;
 }
 
