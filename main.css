@@ -74,13 +74,12 @@ nav a:hover::before {
 }
 
 #hero {
-    background-image: url('torontobg1.jpg');
+    background-image: url('https://i.imgur.com/U63nXzZ.jpg');
     background-size: cover;
     background-position: center center;
-    position: relative;
     top: 0;
     bottom: 0;
-    height: 90vh;
+    height: 120vh;
     z-index: -10;
 }
 
@@ -107,12 +106,15 @@ nav a:hover::before {
 .links {
     position: absolute;
     height: auto;
-    top: 400px;
+    top: 480px;
     width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .background-maroon {
     background-color: #5b0000;
+    opacity: 0.7;
 }
 
 p, span {
@@ -132,7 +134,7 @@ h1 {
 }
 
 h2 {
-    font-size: 14pt;
+    font-size: 20pt;
     color: #d7c4a5;
     font-family: Ubuntu, Geneva, sans-serif;
 }
@@ -148,11 +150,15 @@ h3 {
 
 a {
     font-size: 13pt;
-    color: #c3f0af;
+    color: white;
 }
 
 a:hover {
-    color: #c3f0af;
+    color: white;
     background-color: #000000;
     text-decoration: none;
+}
+
+.col-md-12 {
+    padding: 50px 20px;
 }
